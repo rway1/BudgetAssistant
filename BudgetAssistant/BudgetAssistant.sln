@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetAssistant", "BudgetAssistant\BudgetAssistant.csproj", "{4AC348E8-6594-4106-9675-3B9EB4A66B66}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetAssistantTest", "BudgetAssistantTest\BudgetAssistantTest.csproj", "{271D055C-F305-4E74-B0FF-5127F8F3C303}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetAssistant", "BudgetAssistant\BudgetAssistant.csproj", "{62B16893-0019-4C55-AB4F-608120B0FCBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4AC348E8-6594-4106-9675-3B9EB4A66B66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4AC348E8-6594-4106-9675-3B9EB4A66B66}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4AC348E8-6594-4106-9675-3B9EB4A66B66}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4AC348E8-6594-4106-9675-3B9EB4A66B66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{271D055C-F305-4E74-B0FF-5127F8F3C303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{271D055C-F305-4E74-B0FF-5127F8F3C303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{271D055C-F305-4E74-B0FF-5127F8F3C303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{271D055C-F305-4E74-B0FF-5127F8F3C303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62B16893-0019-4C55-AB4F-608120B0FCBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62B16893-0019-4C55-AB4F-608120B0FCBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62B16893-0019-4C55-AB4F-608120B0FCBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62B16893-0019-4C55-AB4F-608120B0FCBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
