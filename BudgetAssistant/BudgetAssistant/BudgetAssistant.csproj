@@ -5,4 +5,18 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="credentials.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="credentials.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Sheets.v4" Version="1.35.1.1303" />
+  </ItemGroup>
+
 </Project>
