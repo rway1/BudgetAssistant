@@ -17,13 +17,14 @@ namespace BudgetAssistant
             ParseTransactions();
         }
 
-        public void ParseTransactions()
+        public List<Transaction> ParseTransactions()
         {
             List<Transaction> transactions = new List<Transaction>();
             foreach (var item in System.IO.File.ReadAllLines(PATH_TO_TRANSACTIONS_FILE))
             {
                 transactions.Add(new Transaction(item.Replace("\"", "").Replace(" ", "")));
             }
+            return transactions;
         }
     }
 }

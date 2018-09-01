@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetAssistantTest", "Budg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BudgetAssistant", "BudgetAssistant\BudgetAssistant.csproj", "{62B16893-0019-4C55-AB4F-608120B0FCBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransactionSortConsole", "TransactionSortConsole\TransactionSortConsole.csproj", "{0766E1F9-EA54-4D8E-95CF-4752DFD5AFEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,14 @@ Global
 		{62B16893-0019-4C55-AB4F-608120B0FCBE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{62B16893-0019-4C55-AB4F-608120B0FCBE}.Release|x86.ActiveCfg = Release|x86
 		{62B16893-0019-4C55-AB4F-608120B0FCBE}.Release|x86.Build.0 = Release|x86
+		{0766E1F9-EA54-4D8E-95CF-4752DFD5AFEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0766E1F9-EA54-4D8E-95CF-4752DFD5AFEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0766E1F9-EA54-4D8E-95CF-4752DFD5AFEA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0766E1F9-EA54-4D8E-95CF-4752DFD5AFEA}.Debug|x86.Build.0 = Debug|Any CPU
+		{0766E1F9-EA54-4D8E-95CF-4752DFD5AFEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0766E1F9-EA54-4D8E-95CF-4752DFD5AFEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0766E1F9-EA54-4D8E-95CF-4752DFD5AFEA}.Release|x86.ActiveCfg = Release|Any CPU
+		{0766E1F9-EA54-4D8E-95CF-4752DFD5AFEA}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -74,6 +74,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Model\Sorted_Transaction.cs" />
     <Compile Include="Model\TransactionCollection.cs" />
     <Compile Include="Model\Transaction.cs" />
     <Page Include="MainWindow.xaml">

@@ -43,5 +43,12 @@ namespace BudgetAssistant
             Location = data[4];
         }
 
+        public Transaction(double amount, DateTime dateTime, string location)
+        {
+            Amount = amount;
+            Date = dateTime;
+            Location = location;
+        }
+
     }
 }
